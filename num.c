@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-int n;
+int n;clrscr();
 printf("enter the number:");
 scanf("%d",&n);
 if(n>0)
@@ -17,4 +17,5 @@ else
 {
 printf("zero");
 }
+getch();
 }
